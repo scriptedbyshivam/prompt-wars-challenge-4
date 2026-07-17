@@ -39,7 +39,21 @@ async function parseResponse(
   return parsed.success ? success(parsed.data) : failure(ERRORS.invalid);
 }
 
+/**
+ * A concrete DecisionProvider that connects to the live GenAI server-side gateway.
+ *
+ * It sends the compiled incident context as a prompt to the backend which delegates
+ * it to the Google Gemini model. It handles parsing, timeouts, and structured schema
+ * verification of the returned response.
+ */
 export class GatewayDecisionProvider implements DecisionProvider {
+  /**
+   * Initializes a new GatewayDecisionProvider.
+   *
+   * @param endpoint - The API endpoint to send generation requests to.
+   * @param fetcher - The fetch implementation to use (useful for testing).
+   * @param timeoutMilliseconds - Maximum allowed time before the provider times out.
+   */
   constructor(
     private readonly endpoint: string,
     private readonly fetcher: typeof fetch = fetch,
