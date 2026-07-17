@@ -97,7 +97,7 @@ test("evidence navigation updates route, title, and current-page state", async (
   await expect(
     page.getByRole("link", { name: "Quality", exact: true }),
   ).toHaveAttribute("aria-current", "page");
-  await expect(page).toHaveTitle("Quality dashboard — Resolve 90");
+  await expect(page).toHaveTitle("Quality dashboard — StadiumPulse-90");
 });
 
 test("robots and sitemap are served as valid evaluator surfaces", async ({

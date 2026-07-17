@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-11T18:18:36.558Z",
+  "generatedAt": "2026-07-17T18:15:20.876Z",
   "passed": true,
   "failures": [],
   "totals": {
-    "javascriptGzipBytes": 107845,
+    "javascriptGzipBytes": 107884,
     "cssGzipBytes": 9579,
     "javascriptChunks": 11,
     "largestJavaScriptGzipBytes": 58967
@@ -16,19 +16,19 @@
   },
   "assets": [
     {
-      "name": "AccessibilityPage-D9oAoZAQ.js",
+      "name": "AccessibilityPage-AjeL_VC6.js",
       "type": "js",
-      "gzipBytes": 2329
+      "gzipBytes": 2335
     },
     {
-      "name": "ArchitecturePage-EniTrXS0.js",
+      "name": "ArchitecturePage-BArn29GI.js",
       "type": "js",
-      "gzipBytes": 1907
+      "gzipBytes": 1906
     },
     {
-      "name": "ChallengeAlignmentPage-DXXA6ke3.js",
+      "name": "ChallengeAlignmentPage-Dd4kXpv4.js",
       "type": "js",
-      "gzipBytes": 2804
+      "gzipBytes": 2806
     },
     {
       "name": "EvidencePageHeader-BEByN45T.js",
@@ -41,29 +41,9 @@
       "gzipBytes": 2049
     },
     {
-      "name": "GatewayDecisionProvider-D7q3YBQX.js",
+      "name": "GatewayDecisionProvider-CIuISYp8.js",
       "type": "js",
-      "gzipBytes": 1490
-    },
-    {
-      "name": "QualityPage-ql2l9HVb.js",
-      "type": "js",
-      "gzipBytes": 1857
-    },
-    {
-      "name": "SecurityPage-DsAHgvCy.js",
-      "type": "js",
-      "gzipBytes": 2449
-    },
-    {
-      "name": "TestingPage-CKo5nLMo.js",
-      "type": "js",
-      "gzipBytes": 1740
-    },
-    {
-      "name": "index-BGw6q48B.js",
-      "type": "js",
-      "gzipBytes": 16755
+      "gzipBytes": 1492
     },
     {
       "name": "index-ByQl6esS.css",
@@ -71,9 +51,29 @@
       "gzipBytes": 7530
     },
     {
+      "name": "index-DsQ0UEjY.js",
+      "type": "js",
+      "gzipBytes": 16779
+    },
+    {
+      "name": "QualityPage-8pytC_H-.js",
+      "type": "js",
+      "gzipBytes": 1858
+    },
+    {
       "name": "react-DieaS26h.js",
       "type": "js",
       "gzipBytes": 58967
+    },
+    {
+      "name": "SecurityPage-BijF3_5a.js",
+      "type": "js",
+      "gzipBytes": 2453
+    },
+    {
+      "name": "TestingPage-BwTXPtC4.js",
+      "type": "js",
+      "gzipBytes": 1741
     },
     {
       "name": "validation-jLZSjMZJ.js",

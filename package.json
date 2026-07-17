@@ -1,10 +1,10 @@
 {
-  "name": "resolve-90",
+  "name": "stadium-pulse-90",
   "version": "1.0.0",
   "private": true,
+  "author": "Shivam Maurya",
   "description": "A grounded GenAI incident-to-action compiler for inclusive stadium operations.",
   "type": "module",
-  "license": "Apache-2.0",
   "engines": {
     "node": ">=20.19.0"
   },

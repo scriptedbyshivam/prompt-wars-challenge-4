@@ -1,15 +1,14 @@
-# Resolve 90 — AI Stadium Incident Command
+# StadiumPulse-90 — AI Stadium Incident Command by Shivam Maurya
 
 [![CI workflow](https://img.shields.io/badge/CI-workflow%20configured-176b5b?style=flat-square&logo=githubactions&logoColor=white)](.github/workflows/ci.yml)
 [![TypeScript strict](https://img.shields.io/badge/TypeScript-strict-3178c6?style=flat-square&logo=typescript&logoColor=white)](tsconfig.app.json)
 [![WCAG 2.2 AA](https://img.shields.io/badge/accessibility-WCAG%202.2%20AA-7646ff?style=flat-square)](ACCESSIBILITY.md)
-[![License: Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-f58b57?style=flat-square)](LICENSE)
 
 **Stadium disruption in. Safe plan out.**
 
 A grounded GenAI incident-to-action compiler for inclusive stadium operations.
 
-Resolve 90 turns fragmented match-day signals into a coordinated decision packet that a human commander can inspect and approve in under 90 seconds. It explicitly prevents a “safe” crowd action from silently breaking accessible routes, transit capacity, multilingual communication, or sustainability constraints.
+StadiumPulse-90 turns fragmented match-day signals into a coordinated decision packet that a human commander can inspect and approve in under 90 seconds. It explicitly prevents a “safe” crowd action from silently breaking accessible routes, transit capacity, multilingual communication, or sustainability constraints.
 
 > **Honest demo contract:** The included scenario runs in clearly labeled **Replay mode**, so judging is fast, offline, and reproducible. Production mode routes structured generation to Gemini through a server-side gateway. Generated plans are untrusted until schema validation and deterministic policy guardrails pass.
 
@@ -94,6 +93,6 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) and the in-product `/architecture` route.
 - [Contribution guide](CONTRIBUTING.md)
 - [Changelog](CHANGELOG.md)
 
-## License
+## Affiliation
 
-Apache-2.0. “FIFA” is referenced only as part of the supplied challenge context. Resolve 90 is not affiliated with or endorsed by FIFA.
+“FIFA” is referenced only as part of the supplied challenge context. StadiumPulse-90 is not affiliated with or endorsed by FIFA.

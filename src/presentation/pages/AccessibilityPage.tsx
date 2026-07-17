@@ -22,7 +22,7 @@ export default function AccessibilityPage(): React.JSX.Element {
       <EvidencePageHeader
         eyebrow="Evaluation evidence · accessibility"
         title="Accessibility is a UI standard—and an operational veto."
-        summary="Resolve 90 targets WCAG 2.2 AA while preventing recommendations that reduce protected step-free capacity below 90%."
+        summary="StadiumPulse-90 targets WCAG 2.2 AA while preventing recommendations that reduce protected step-free capacity below 90%."
         status={STATUS_COPY[status]}
         tone={STATUS_TONE[status]}
       />

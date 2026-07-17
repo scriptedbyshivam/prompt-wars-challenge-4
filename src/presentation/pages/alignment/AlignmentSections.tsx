@@ -93,8 +93,8 @@ export function AlignmentTable(): React.JSX.Element {
         <Icon name="evidence" />
         <p>
           <strong>Evidence rule:</strong> replay data and outcomes are synthetic
-          or modeled. Resolve 90 does not claim FIFA affiliation, certification,
-          live venue integration, or measured impact.
+          or modeled. StadiumPulse-90 does not claim FIFA affiliation,
+          certification, live venue integration, or measured impact.
         </p>
       </aside>
     </section>

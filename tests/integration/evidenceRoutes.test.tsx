@@ -40,7 +40,7 @@ describe("visible evidence routes", () => {
       "page",
     );
     expect(screen.getByRole("main")).toHaveFocus();
-    expect(document.title).toBe("Quality dashboard — Resolve 90");
+    expect(document.title).toBe("Quality dashboard — StadiumPulse-90");
   });
 
   it("provides a safe recovery route for an unknown path", async () => {
@@ -52,6 +52,6 @@ describe("visible evidence routes", () => {
         name: "The requested evidence page is unavailable.",
       }),
     ).toBeVisible();
-    expect(document.title).toBe("Not found — Resolve 90");
+    expect(document.title).toBe("Not found — StadiumPulse-90");
   });
 });

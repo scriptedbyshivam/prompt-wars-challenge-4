@@ -26,7 +26,9 @@ describe("visible decision workflow", () => {
         name: "Stadium disruption in. Safe plan out.",
       }),
     ).toBeVisible();
-    expect(screen.getByText("AI stadium incident command")).toBeVisible();
+    expect(
+      screen.getByText("AI stadium incident command by Shivam Maurya"),
+    ).toBeVisible();
     expect(screen.getByText("Human approval required")).toBeVisible();
     expect(
       screen.getByRole("link", { name: /checks Testing evidence/ }),

@@ -15,7 +15,7 @@ export default function SecurityPage(): React.JSX.Element {
       <EvidencePageHeader
         eyebrow="Evaluation evidence · security"
         title="The model proposes. It never commands."
-        summary="Resolve 90 treats every generated plan as untrusted. Controls protect credentials, decision integrity, accessibility, privacy, and human authority."
+        summary="StadiumPulse-90 treats every generated plan as untrusted. Controls protect credentials, decision integrity, accessibility, privacy, and human authority."
         status="0 known high / critical advisories"
       />
       <ThreatModel />

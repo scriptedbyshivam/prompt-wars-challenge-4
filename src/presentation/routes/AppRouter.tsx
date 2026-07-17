@@ -65,7 +65,7 @@ function routeFor(pathname: string): React.JSX.Element {
 export function AppRouter(): React.JSX.Element {
   const pathname = usePathname();
   useEffect(() => {
-    document.title = `${ROUTES[pathname]?.title ?? "Not found"} — Resolve 90`;
+    document.title = `${ROUTES[pathname]?.title ?? "Not found"} — StadiumPulse-90`;
   }, [pathname]);
   return (
     <AppShell>

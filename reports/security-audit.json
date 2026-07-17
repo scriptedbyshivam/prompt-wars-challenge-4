@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T18:09:16.826Z",
+  "generatedAt": "2026-07-17T18:15:25.813Z",
   "vulnerabilities": {
     "info": 0,
     "low": 0,
@@ -8,13 +8,6 @@
     "critical": 0,
     "total": 0
   },
-  "dependencies": {
-    "prod": 5,
-    "dev": 346,
-    "optional": 67,
-    "peer": 41,
-    "peerOptional": 0,
-    "total": 350
-  },
+  "dependencies": {},
   "advisories": {}
 }

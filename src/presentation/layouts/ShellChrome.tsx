@@ -37,7 +37,7 @@ function ProductIdentity(): React.JSX.Element {
     <div className="shell-width site-header__inner">
       <Brand />
       <div className="identity-line" aria-label="Product description">
-        <span>AI stadium incident command</span>
+        <span>AI stadium incident command by Shivam Maurya</span>
         <span className="mode-pill">
           <span className="mode-pill__dot" aria-hidden="true" />
           Replay mode
@@ -76,8 +76,11 @@ export function SiteFooter(): React.JSX.Element {
     <footer className="site-footer">
       <div className="shell-width site-footer__inner">
         <div>
-          <strong>Resolve 90</strong>
-          <span>Human-controlled AI for inclusive stadium operations.</span>
+          <strong>StadiumPulse-90</strong>
+          <span>
+            Human-controlled AI for inclusive stadium operations · Developed by
+            Shivam Maurya
+          </span>
         </div>
         <div className="site-footer__links">
           <AppLink href="/challenge-alignment">Challenge evidence</AppLink>

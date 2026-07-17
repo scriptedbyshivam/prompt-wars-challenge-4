@@ -53,7 +53,9 @@ function HeroCopy(
 ): React.JSX.Element {
   return (
     <div className="incident-hero__copy">
-      <p className="eyebrow">Resolve 90 · AI stadium incident command</p>
+      <p className="eyebrow">
+        StadiumPulse-90 · AI stadium incident command by Shivam Maurya
+      </p>
       <h1 id="product-title">
         Stadium disruption in. <em>Safe plan out.</em>
       </h1>
